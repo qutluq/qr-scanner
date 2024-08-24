@@ -58,7 +58,7 @@ export const Home = () => {
       }
     };
 
-    init();
+    void init();
   }, []);
 
   const login = async () => {

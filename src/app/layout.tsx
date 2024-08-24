@@ -18,9 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex flex-col gap-3 items-center justify-center h-[100dvh] w-screen">
-          <StoreProvider>
-            {children}
-         </StoreProvider>
+        <StoreProvider>{children}</StoreProvider>
       </body>
     </html>
   );
