@@ -1,3 +1,4 @@
-import { Home } from './Home/Home';
+import { Home } from './home/Home';
+import { Scanner } from './scanner/Scanner';
 
-export {Home}
+export { Home, Scanner };
